@@ -32,11 +32,11 @@ $(document).ready(function(){
             },
         },
         messages:{
-            nome:'<h3 class="validate"> Por favor, insira seu nome!</h3>',
-            email: '<h3 class="validate"> Por favor, insira seu e-mail!</h3>',
-            telefone: '<h3 class="validate"> Por favor, insira seu telefone!</h3>',
-            cpf:'<h3 class="validate"> Por favor, insira seu CPF!</h3>',
-            cep: '<h3 class="validate"> Por favor, insira seu CEP!</h3>'
+            nome:'<h3 class="validate"> * Por favor, insira seu nome!</h3>',
+            email: '<h3 class="validate">* Por favor, insira seu e-mail!</h3>',
+            telefone: '<h3 class="validate"> * Por favor, insira seu telefone!</h3>',
+            cpf:'<h3 class="validate"> * Por favor, insira seu CPF!</h3>',
+            cep: '<h3 class="validate">* Por favor, insira seu CEP!</h3>'
         },
 
         invalidHandler: function(evento, validador){
