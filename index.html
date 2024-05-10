@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de cadastro</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div>
+        
+        <header>
+            <h1>Formulário de Cadastro</h1>
+        </header>
+    
+        <section>
+            <form>
+                <label for="nome">Nome Completo:</label>
+                <input type="text" name="nome" id="nome">
+        
+                <label for="email">E-mail</label>
+                <input type="email" name="email" id="email">
+        
+                <label for="telefone">Telefone</label>
+                <input type="tel" name="telefone" id="telefone">
+        
+                <label for="cpf">CPF:</label>
+                <input type="text" name="cpf" id="cpf">
+        
+                <label for="endereco">Endereço completo:</label>
+                <input type="text" name="endereco" id="endereco">
+        
+                <label for="bairro">Bairro:</label>
+                <input type="text" name="bairro" id="bairro">
+        
+                <label for="cep">CEP:</label>
+                <input type="text" name="cep" id="cep">
+    
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </div>
+    
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="./js/jquery.mask.min.js"></script>
+    <script src="./js/jquery.validate.min.js"></script>
+    <script src="./js/messages_pt_BR.min.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+</html>
