@@ -11,6 +11,7 @@ body{
     background-color: #f1f3f4;
     width: 100%;
     overflow-y: hidden;
+    font-family: "Roboto", sans-serif;
 }
 
 div{
@@ -26,6 +27,7 @@ header{
 
 h1{
     text-align: center;
+    font-family: "Sedan SC", serif;;
 }
 
 form{
